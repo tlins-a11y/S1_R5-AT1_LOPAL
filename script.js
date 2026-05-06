@@ -1,0 +1,7 @@
+let contagem = " ";
+
+for (let i = 10; i > 0; i = i - 1) {
+    contagem = contagem + " " + i;
+}
+
+alert(contagem);
