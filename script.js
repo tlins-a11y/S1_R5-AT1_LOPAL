@@ -1,7 +1,10 @@
-let produto = 0;
+let soma = 0;
+let qtd = 0;
+let n;
 
-while (produto != 3) {
-    produto = prompt("1 - Inserir\n2 - Listar\n3 - Sair");
+while (n = Number(prompt("Digite um número (0 para sair)"))) {
+    soma += n;
+    qtd++;
 }
 
-alert("Sistema encerrado");
+alert(`Quantidade: ${qtd}\nSoma: ${soma}\nMédia: ${soma / qtd || 0}`);
