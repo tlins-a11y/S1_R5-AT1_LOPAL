@@ -1,5 +1,7 @@
-let numero = prompt("Digite um número:");
+let produto = 0;
 
-for (let i = 1; i <= 10; i++) {
-    alert(`${numero} x ${i} = ${numero * i}`);
+while (produto != 3) {
+    produto = prompt("1 - Inserir\n2 - Listar\n3 - Sair");
 }
+
+alert("Sistema encerrado");
