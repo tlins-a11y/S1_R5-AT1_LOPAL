@@ -1,7 +1,5 @@
-let soma = 0;
-let i = 1;
-while (i <= 10) {
-    soma = soma + i
-    alert(soma);
-    i = i + 1
+let numero = prompt("Digite um número:");
+
+for (let i = 1; i <= 10; i++) {
+    alert(`${numero} x ${i} = ${numero * i}`);
 }
